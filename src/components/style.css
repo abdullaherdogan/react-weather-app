@@ -1,0 +1,15 @@
+.container {
+    align-items: center;
+}
+
+.weatherContainer {
+    margin: 20px;
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    transition: all 0.5s;
+}
+.weatherContainer:hover {
+    border: solid yellow 1px;
+}
